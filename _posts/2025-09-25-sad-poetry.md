@@ -2,9 +2,9 @@
 layout: post
 title: The sad poetry archive 
 subtitle: This was all I had for a long old time. 
-cover-img: https://images.unsplash.com/photo-1654440243440-c63ee3cc6bb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDc1NjV8MHwxfHNlYXJjaHwyN3x8cG9zc3VtfGVufDB8fHx8MTcwMDA4NTk2Nnww&ixlib=rb-4.0.3&q=80&w=1080
+cover-img: https://images.unsplash.com/photo-1654440243440-c63ee3cc6bb4
 thumbnail-img:
-share-img: 
+share-img: https://images.unsplash.com/photo-1681375020549-b6c39cb7cd51
 tags: [poetry, archive]
 author: Philip
 ---

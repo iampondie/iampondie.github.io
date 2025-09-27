@@ -49,7 +49,7 @@ Was mine, the traumas passed  \
 Are stains that will not wash,  \
 And I am scarred by running fast  \
 And failing. Always. Stop.  \
-
+  \
 **The earth life**
 
 Gnat fuzz hums on pregnant buds  \
@@ -68,11 +68,11 @@ And a clutching of roots.  \
   \
 This is my earth life: to follow  \
 The worm's meandering,  \
-Through saw-jaws, the spider's scrawl,  / 
+Through saw-jaws, the spider's scrawl,  \ 
 On paths traced, untraced and retraced,  \
 By Brownian ants, millipedes  \
 And others, less imagined.  \
-
+  \
 **A song for Auden**
 
 Stop the clocks, Auden said,  \
@@ -109,7 +109,7 @@ Raging, and nothing ever changes.  \
   \
 What world waits for Auden,  \
 But will not wait for me?  \
-
+  \
 **Still life**
 
 There is a button missing, the thread  \

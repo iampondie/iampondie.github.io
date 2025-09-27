@@ -1,18 +1,138 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/path.jpg
+title: The sad poetry archive 
+subtitle: This was all I had for a long old time. 
+cover-img: https://images.unsplash.com/photo-1654440243440-c63ee3cc6bb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDc1NjV8MHwxfHNlYXJjaHwyN3x8cG9zc3VtfGVufDB8fHx8MTcwMDA4NTk2Nnww&ixlib=rb-4.0.3&q=80&w=1080
 thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
-tags: [books, test]
-author: Sharon Smith and Barry Simpson
+share-img: 
+tags: [poetry, archive]
+author: Philip
 ---
+**Possum**
 
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
+It was a month for death
+I guess, or seemed that way at least,
+When little losses swept
+Like leaves against the trees and made
+A litter where you lay, half born,
+A broken little thing
+Still slick with birth juice,
+All blind and oily, trembling
+A frantic frequency.
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
+I felt your life was coiled
+In that ring tailed muscular knot
+That bound you boa tight –
+A serpent strangling – knuckled white
+And fraught. Your time unwinding meant
+The stress was holding at
+The threshold, where the light
+Bends back upon itself and waits
+And there is nothing else.
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+I tried to climb you back
+Into your tree. An easy height
+I thought, just far enough
+So that your mother would descend
+To where the knotted branches made
+A secret hiding place
+From time and other threats
+That scuttle in the dirt and write
+Scripture for the Zulu gods.
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+But I was un-careful
+With you, or else you meant to fall,
+You twitched and slipped and arched
+Into a final spiral. And
+I watched and knew that now the blame
+Was mine, the traumas passed
+Are stains that will not wash,
+And I am scarred by running fast
+And failing. Always. Stop.
+
+**The earth life**
+
+Gnat fuzz hums on pregnant buds
+While fruits, fleshy and swollen,
+Arch and bend on fattened stems
+And dewy blebs roll and fall
+To heaving soils, where grubs
+Congregate endlessly.
+
+The season is thickening:
+Its scent concentrates, like ether,
+In creeping clouds, blending
+The giddy whirr of mosquitoes
+Into amnesia and penitence
+And a clutching of roots.
+
+This is my earth life: to follow
+The worm's meandering,
+Through saw-jaws, the spider's scrawl,
+On paths traced, untraced and retraced,
+By Brownian ants, millipedes
+And others, less imagined.
+
+**A song for Auden**
+
+Stop the clocks, Auden said,
+Like grief was something quiet
+And still; a deep breath and calming
+Exhalation, soughed
+Through stiff lips by stoic men
+In mourning dress on damp
+Tarmac streets, where heavy skies,
+And terraces with dun,
+Rendered walls and sodden lawns,
+Dull the hearse’s engine,
+Effect numb the congregation.
+
+And though the poet turns
+The verse to private lamentation
+And writes his loss across
+The skies and finds no words worth
+Rhyming: it’s not enough.
+
+The clock is stopped, the world stilled,
+The metre’s taken measure,
+The loss is parsed in careful, weighted
+Metaphor – because
+Auden’s too refined to say
+That grief is snot and fury,
+Torn photographs and ragged
+Scabs and endless hours
+Spent in tortured spinning circles.
+And Time’s the frozen vortex
+Where we once floated,
+I am now sinking,
+Raging, and nothing ever changes.
+
+What world waits for Auden,
+But will not wait for me?
+
+**Still life**
+
+There is a button missing, the thread
+unwinds across a gut too heavy for
+its frame.
+
+He sits in grey-light, very still,
+and half lid eyes urge on
+the fading day.
+
+He grew old slowly; shadows seeped
+through tired rooms,
+fabric frayed, the edges
+first diminished.
+
+Upon the mantle, photographs,
+like mourners at a wake.
+
+In one a couple sits, a crowded
+rooftop scene; they have the
+corner seat.
+
+Across the city, blue lights and neon glow
+and traffic flare like fire burning low.
+
+

@@ -10,16 +10,16 @@ author: Philip
 ---
 **Possum**
 
-It was a month for death
-I guess, or seemed that way at least,
-When little losses swept
-Like leaves against the trees and made
-A litter where you lay, half born,
-A broken little thing
-Still slick with birth juice,
-All blind and oily, trembling
-A frantic frequency.
-
+It was a month for death  \
+I guess, or seemed that way at least,  \
+When little losses swept  \
+Like leaves against the trees and made  \
+A litter where you lay, half born,  \
+A broken little thing  \
+Still slick with birth juice,  \
+All blind and oily, trembling  \
+A frantic frequency.  \
+  \
 I felt your life was coiled
 In that ring tailed muscular knot
 That bound you boa tight –

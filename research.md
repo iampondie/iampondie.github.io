@@ -18,4 +18,4 @@ I lead a couple of ARC research projects focussed on technology and harmful comm
 
 I’m also a founder and covenor of the [Fighting Harmful Online Communication research initiative](https://research.unimelb.edu.au/strengths/initiatives/interdisciplinary/hallmark/fighting-harmful-online-communication), which coordinates interdisciplinary research on the harms resulting from mistaken, misleading, exaggerated, polemic and deliberately false online communications. The initiative funds interdisciplinary research, develops new methods and technologies to mitigate harmful communication and organises regular events for researchers and the publc.
 
-My most recent journal articles are listed on my UniMelb research profile and catalogued by Orcid and G-Scholar.
+My most recent journal articles are listed on my [UniMelb research profile](https://findanexpert.unimelb.edu.au/profile/858659-philip-pond).

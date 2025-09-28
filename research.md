@@ -1,10 +1,5 @@
 ---
 layout: page
-title: About me
-subtitle: What do I do...
----
----
-layout: page
 title: research
 subtitle: What replaces liberalism?
 ---

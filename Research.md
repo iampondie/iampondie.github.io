@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: research
 subtitle: What replaces liberalism?
 ---
 I am a computer programmer and a media philosopher. I'm interested in the ways in which software constructs communication practices that have particular social implications, especially political ones. My research explores:

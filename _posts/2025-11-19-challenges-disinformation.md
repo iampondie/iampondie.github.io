@@ -2,9 +2,9 @@
 layout: post
 title: A rambling essay for Todd 
 subtitle: What is the problem? Why is it different and why is it so difficult?
-cover-img: 
+cover-img: https://images.unsplash.com/photo-1585007600263-71228e40c8d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 thumbnail-img:
-share-img: 
+share-img: https://images.unsplash.com/photo-1585007600263-71228e40c8d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: [ideas, disinformation]
 author: Philip
 ---

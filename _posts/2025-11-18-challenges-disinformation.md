@@ -1,14 +1,16 @@
 ---
 layout: post
 title: A rambling essay for Todd 
-subtitle: What is the problem? Why is it different and why is it so difficult?
+subtitle: 
 cover-img: https://images.unsplash.com/photo-1585007600263-71228e40c8d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 thumbnail-img:
 share-img: https://images.unsplash.com/photo-1585007600263-71228e40c8d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: [ideas, disinformation]
 author: Philip
 ---
- 
+
+# What is the problem? Why is it different and why is it so difficult?
+
 Consider the question, what is disinformation? It seems simple enough and surely it is foundational. If we can't agree what actually is the problem, then how are we meant to respond to it? Presumably you have an answer? Most answers are something like: disinformation is false or misleading information given with the intent to deceive. The intent makes it different from misinformation. At this stage, we can assume that this sort of an answer is given for most experts i.e. it's generally agreed across academic and professional practice. 
 
 But it's nonsense. It falls apart given the slightest prodding and it's hopeless in practice. First, there's the intent part. The intent of the sender of information is almost never fully knowable. Even it is was, the idea that a piece of information is shared with the same intent by everyone is ridiculous. Some people may be malicious masterminds but others are just gullible. And even if intent were sensible and knowable, deciding what is clearly false and clearly misleading is (usually) really hard. In most cases, truthfulness is something that we decide collectively via some process (formal or informal... science, law, common sense) that, crucially, has to be agreed and accepted by its participants. 

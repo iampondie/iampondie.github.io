@@ -1,4 +1,6 @@
-What is the problem? Why is it different and why is it so difficult? 
+# A rambling essay for Todd 
+
+## What is the problem? Why is it different and why is it so difficult? 
 
 Consider the question, what is disinformation? It seems simple enough and surely it is foundational. If we can't agree what actually is the problem, then how are we meant to respond to it? Presumably you have an answer? Most answers are something like: disinformation is false or misleading information given with the intent to deceive. The intent makes it different from misinformation. At this stage, we can assume that this sort of an answer is given for most experts i.e. it's generally agreed across academic and professional practice. 
 

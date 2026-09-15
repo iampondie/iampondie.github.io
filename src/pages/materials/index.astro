@@ -1,25 +1,25 @@
 ---
-import PlasteringLayout from '../../layouts/PlasteringLayout.astro';
+import MaterialsLayout from '../../layouts/MaterialsLayout.astro';
 import { getCollection } from 'astro:content';
 
-const projects = await getCollection('plastering');
+const projects = await getCollection('materials');
 
 // Keep a few featured images for the main gallery,
 // or pull them from projects if they exist
 const featuredImages = projects.length > 0
     ? projects.flatMap(p => p.data.galleryImages).slice(0, 6)
     : [
-        '/plastering/IMG_9530.jpg',
-        '/plastering/IMG_9895.jpg',
-        '/plastering/P1020443.jpeg',
-        '/plastering/P1020446.jpeg',
-        '/plastering/P1020458.jpeg',
-        '/plastering/IMG_9644.jpeg',
-        '/plastering/P1020447.jpeg'
+        '/materials/IMG_9530.jpg',
+        '/materials/IMG_9895.jpg',
+        '/materials/P1020443.jpeg',
+        '/materials/P1020446.jpeg',
+        '/materials/P1020458.jpeg',
+        '/materials/IMG_9644.jpeg',
+        '/materials/P1020447.jpeg'
       ];
 ---
 
-<PlasteringLayout title="Material Worlds">
+<MaterialsLayout title="Material Worlds">
     <article style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
         <section style="margin-bottom: 6rem;">
             <div class="plas-gallery">

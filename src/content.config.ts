@@ -15,8 +15,8 @@ const blog = defineCollection({
   }),
 });
 
-const plastering = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/plastering' }),
+const materials = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/materials' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
@@ -28,5 +28,5 @@ const plastering = defineCollection({
 
 export const collections = {
   'blog': blog,
-  'plastering': plastering,
+  'materials': materials,
 };

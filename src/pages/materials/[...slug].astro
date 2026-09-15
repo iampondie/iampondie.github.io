@@ -1,10 +1,10 @@
 ---
-import PlasteringLayout from '../../layouts/PlasteringLayout.astro';
+import MaterialsLayout from '../../layouts/MaterialsLayout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const plasteringEntries = await getCollection('plastering');
-  return plasteringEntries.map(entry => ({
+  const materialsEntries = await getCollection('materials');
+  return materialsEntries.map(entry => ({
     params: { slug: entry.slug }, props: { entry },
   }));
 }
@@ -13,7 +13,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<PlasteringLayout title={entry.data.title}>
+<MaterialsLayout title={entry.data.title}>
     <article>
         <h1>{entry.data.title}</h1>
         <div style="margin-bottom: 2rem; color: var(--plas-accent); font-weight: bold;">

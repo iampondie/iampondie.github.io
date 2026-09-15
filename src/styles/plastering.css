@@ -1,0 +1,126 @@
+:root {
+  --plas-bg: #ffffff;
+  --plas-text: #333333;
+  --plas-accent: #8a8a8a;
+  --plas-muted: #a0a0a0;
+  --plas-font: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--plas-bg);
+  color: var(--plas-text);
+  font-family: var(--plas-font);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.plas-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.plas-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--plas-text);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.main-nav a {
+  color: var(--plas-text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: var(--plas-accent);
+}
+
+
+.plas-gallery {
+  column-count: 2;
+  column-gap: 1.5rem;
+  width: 100%;
+}
+
+.plas-gallery-item {
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  break-inside: avoid;
+}
+
+.plas-gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  filter: grayscale(20%);
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+.plas-gallery-item img:hover {
+  filter: grayscale(0%);
+}
+
+/* Lightbox Modal */
+.plas-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+.plas-modal.active {
+  display: flex;
+}
+
+.plas-modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.plas-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: var(--plas-text);
+  cursor: pointer;
+  font-weight: 300;
+}
+
+
+.plas-gallery-item h3 {
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.plas-gallery-item p {
+  margin: 0;
+  color: var(--plas-muted);
+  font-weight: 300;
+  line-height: 1.6;
+}

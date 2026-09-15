@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <!-- Background: Pure White -->
+  <rect width="200" height="100" fill="none" />
+
+  <!-- Geometric MF Ligature -->
+  <!-- Using a clean, bold sans-serif style similar to Outfit -->
+  <g fill="#000000" font-family="Outfit, sans-serif" font-weight="700" font-size="60" text-anchor="middle">
+    <text x="100" y="70" letter-spacing="-4">MF</text>
+  </g>
+
+  <!-- Subtle accent line under the logo for "Finish" -->
+  <rect x="70" y="80" width="60" height="4" fill="#ff4f00" rx="2" />
+</svg>

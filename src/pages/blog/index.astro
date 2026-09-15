@@ -1,0 +1,33 @@
+---
+import ResearchLayout from '../../layouts/ResearchLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+---
+
+<ResearchLayout title="Asynchronicity">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Recent Research</h2>
+    <ul style="list-style: none; padding: 0;">
+        {posts.map(post => (
+            <li style="margin-bottom: 3rem; border-bottom: 1px solid #ddd; padding-bottom: 2rem; display: flex; gap: 2rem; align-items: start;">
+                {post.data.coverImage && (
+                    <a href={`/blog/${post.id}`} style="flex-shrink: 0;">
+                        <img src={post.data.coverImage} alt={post.data.title} style="width: 200px; height: 120px; object-fit: cover; border-radius: 4px;" />
+                    </a>
+                )}
+                <div style="flex: 1;">
+                    <a href={`/blog/${post.id}`} style="font-size: 1.5rem; font-weight: bold; color: var(--res-accent); text-decoration: none;">
+                        {post.data.title}
+                    </a>
+                    <div class="res-post-meta">
+                        {post.data.date ? post.data.date.toDateString() : 'Undated'} |
+                        <span style="background-color: var(--res-secondary); color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.75rem; font-weight: bold; margin-left: 4px;">
+                            {post.data.category || 'General'}
+                        </span>
+                    </div>
+                    <p>{post.data.description || 'No description available.'}</p>
+                </div>
+            </li>
+        ))}
+    </ul>
+</ResearchLayout>

@@ -1,0 +1,43 @@
+:root {
+  --main-bg: #ffffff;
+  --main-text: #000000;
+  --main-accent: #ff4f00;
+  --main-font: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+  font-family: var(--main-font);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main-nav a {
+  color: var(--main-text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: var(--main-accent);
+}

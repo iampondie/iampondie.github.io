@@ -1,0 +1,33 @@
+---
+import PlasteringLayout from '../../layouts/PlasteringLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const plasteringEntries = await getCollection('plastering');
+  return plasteringEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<PlasteringLayout title={entry.data.title}>
+    <article>
+        <h1>{entry.data.title}</h1>
+        <div style="margin-bottom: 2rem; color: var(--plas-accent); font-weight: bold;">
+            Service Type: {entry.data.serviceType}
+        </div>
+
+        <div class="plas-content">
+            <Content />
+        </div>
+
+        {entry.data.testimonial && (
+            <div style="margin-top: 3rem; padding: 2rem; background: #fbfbfb; border-left: 5px solid var(--plas-accent); font-style: italic;">
+                "{entry.data.testimonial}"
+            </div>
+        )}
+    </article>
+</PlasteringLayout>

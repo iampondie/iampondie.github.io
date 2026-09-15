@@ -1,0 +1,63 @@
+---
+import PlasteringLayout from '../../layouts/PlasteringLayout.astro';
+import { getCollection } from 'astro:content';
+
+const projects = await getCollection('plastering');
+
+// Keep a few featured images for the main gallery,
+// or pull them from projects if they exist
+const featuredImages = projects.length > 0
+    ? projects.flatMap(p => p.data.galleryImages).slice(0, 6)
+    : [
+        '/plastering/IMG_9530.jpg',
+        '/plastering/IMG_9895.jpg',
+        '/plastering/P1020443.jpeg',
+        '/plastering/P1020446.jpeg',
+        '/plastering/P1020458.jpeg',
+        '/plastering/IMG_9644.jpeg',
+        '/plastering/P1020447.jpeg'
+      ];
+---
+
+<PlasteringLayout title="Material Worlds">
+    <article style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
+        <section style="margin-bottom: 6rem;">
+            <div class="plas-gallery">
+                {featuredImages.map((src, index) => (
+                    <div class="plas-gallery-item">
+                        <img src={src} alt={`Plastering work ${index + 1}`} class="plas-gallery-img" />
+                    </div>
+                ))}
+            </div>
+        </section>
+    </article>
+
+    <div id="plas-modal" class="plas-modal">
+        <span class="plas-modal-close">&times;</span>
+        <img id="plas-modal-img" class="plas-modal-content" src="" alt="Gallery View" />
+    </div>
+
+    <script>
+        const modal = document.getElementById('plas-modal');
+        const modalImg = document.getElementById('plas-modal-img');
+        const closeBtn = document.querySelector('.plas-modal-close');
+        const galleryImgs = document.querySelectorAll('.plas-gallery-img');
+
+        galleryImgs.forEach(img => {
+            img.addEventListener('click', () => {
+                modal.classList.add('active');
+                modalImg.src = img.src;
+            });
+        });
+
+        const closeModal = () => {
+            modal.classList.remove('active');
+            modalImg.src = '';
+        };
+
+        closeBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => {
+            if (e.target !== modalImg) closeModal();
+        });
+    </script>
+</PlasteringLayout>

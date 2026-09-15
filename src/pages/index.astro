@@ -1,17 +1,21 @@
 ---
-
+import MainLayout from '../layouts/MainLayout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout title="Welcome">
+    <section>
+        <div style="margin-top: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+            <a href="https://findanexpert.unimelb.edu.au/profile/858659-philip-pond" target="_blank" rel="noopener noreferrer" style="padding: 3rem 1.5rem; background-color: #ff007f; color: #ffffff; text-decoration: none; text-align: left; font-weight: bold; font-size: 1.2rem; border-radius: 4px; transition: opacity 0.2s;">
+                UniMelb
+            </a>
+            <a href="https://scholar.google.com/citations?user=LFyNGW0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="padding: 3rem 1.5rem; background-color: #8a2be2; color: #ffffff; text-decoration: none; text-align: left; font-weight: bold; font-size: 1.2rem; border-radius: 4px; transition: opacity 0.2s;">
+                Academia
+            </a>
+            <a href="/books" style="padding: 3rem 1.5rem; background-color: #00bfff; color: #ffffff; text-decoration: none; text-align: left; font-weight: bold; font-size: 1.2rem; border-radius: 4px; transition: opacity 0.2s;">
+                Books
+            </a>
+            <div style="padding: 3rem 1.5rem; background-color: #ff00ff; color: #ffffff; text-align: left; font-weight: bold; font-size: 1.2rem; border-radius: 4px;">
+            </div>
+        </div>
+    </section>
+</MainLayout>

@@ -1,0 +1,32 @@
+---
+import ResearchLayout from '../../layouts/ResearchLayout.astro';
+import { render, getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.id }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<ResearchLayout title={entry.data.title}>
+    <article class="res-content">
+        {entry.data.coverImage && (
+            <img src={entry.data.coverImage} alt={entry.data.title} style="width: 100%; height: auto; max-height: 400px; object-fit: cover; margin-bottom: 2rem; border-radius: 4px;" />
+        )}
+        <h1>{entry.data.title}</h1>
+        <div class="res-post-meta">
+            Published on {entry.data.date ? entry.data.date.toDateString() : 'Undated'} |
+            <span style="background-color: var(--res-secondary); color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.8rem; font-weight: bold; margin-left: 4px;">
+                {entry.data.category || 'General'}
+            </span>
+            | Authors: {entry.data.authors ? entry.data.authors.join(', ') : 'Unknown'}
+        </div>
+        <hr />
+        <Content />
+    </article>
+</ResearchLayout>

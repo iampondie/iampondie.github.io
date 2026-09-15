@@ -1,0 +1,51 @@
+---
+import '../styles/plastering.css';
+
+const { title = "Material Worlds" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title} | Material Worlds</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="plas-container">
+        <header class="plas-header" style="display: flex; flex-direction: column; align-items: center; gap: 1rem; justify-content: center; text-align: center; margin-bottom: 3rem;">
+            <img src="/material-worlds-logo.png" alt="Material Worlds Logo" style="width: 80px; height: 80px; object-fit: contain;" />
+            <div style="width: 120px; height: 4px; background: linear-gradient(to right, #B25E4E 25%, #C2B280 25%, #C2B280 50%, #A9BA9D 50%, #A9BA9D 75%, #8E979C 75%); border-radius: 2px;"></div>
+            <div style="text-align: center;">
+                <h1 style="margin: 0;">Material Worlds</h1>
+                <nav class="main-nav" style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 0; margin-top: 0.5rem;">
+                    <a href="/blog">Asynchronicity</a>
+                    <a href="/research">Research</a>
+                    <a href="/plastering">Material Worlds</a>
+                </nav>
+                <div style="margin-top: 1rem;">
+                    <a href="/" style="font-size: 0.9rem; text-decoration: none; color: var(--plas-accent);">← Home</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <slot />
+        </main>
+    </div>
+    <footer style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #ddd; text-align: center; font-size: 0.9rem; color: #666;">
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; margin-bottom: 0.5rem;">
+            <a href="https://scholar.google.com/citations?user=LFyNGW0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="color: var(--plas-accent); text-decoration: none;">Google Scholar</a>
+            <a href="https://orcid.org/0000-0002-5712-240X" target="_blank" rel="noopener noreferrer" style="color: var(--plas-accent); text-decoration: none;">ORCID</a>
+            <a href="mailto:ppond@unimelb.edu.au" style="color: var(--plas-accent); text-decoration: none;">Email</a>
+            <a href="/about" style="color: var(--plas-accent); text-decoration: none; margin-left: 0.5rem;">About</a>
+        </div>
+        <p>&copy; 2026 Philip Pond</p>
+        <p style="font-size: 0.7rem; opacity: 0.6; margin: 0.5rem 0;">Vibed with Astro and Claude and Node.js</p>
+    </footer>
+</body>
+</html>

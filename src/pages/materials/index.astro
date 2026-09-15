@@ -7,7 +7,7 @@ const projects = await getCollection('materials');
 // Keep a few featured images for the main gallery,
 // or pull them from projects if they exist
 const featuredImages = projects.length > 0
-    ? projects.flatMap(p => p.data.galleryImages).slice(0, 6)
+    ? projects.flatMap(p => p.data.galleryImages)
     : [
         '/materials/FullSizeRender.jpeg',
         '/materials/P1020446.jpeg',

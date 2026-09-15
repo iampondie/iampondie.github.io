@@ -59,19 +59,27 @@ body {
   width: 100%;
   margin-bottom: 1.5rem;
   break-inside: avoid;
+  transition: transform 0.3s ease;
 }
 
 .plas-gallery-item img {
   width: 100%;
   height: auto;
-  border-radius: 2px;
+  border-radius: 4px;
   filter: grayscale(20%);
-  transition: filter 0.3s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border: 1px solid #eee;
+}
+
+.plas-gallery-item:hover {
+  transform: translateY(-4px);
 }
 
 .plas-gallery-item img:hover {
   filter: grayscale(0%);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
 }
 
 /* Lightbox Modal */

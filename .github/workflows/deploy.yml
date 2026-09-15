@@ -17,15 +17,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install, build, and upload site
-        uses: withastro/action@v2
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          path: . # Adjust if the site is in a sub-folder, but here it is the root of the repo if we move it.
-          # Wait, the project is in 'personal-site/'.
-          # If the user creates a repo for this, the files will be at the root.
-          # I will assume for the workflow that the files are at the root of the target repo.
-          # But in the current local setup, they are in 'personal-site/'.
-          # I'll write the workflow assuming the repo root IS the project root.
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
 
   deploy:
     needs: build

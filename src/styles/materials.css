@@ -45,9 +45,15 @@ body {
 
 
 .plas-gallery {
-  column-count: 2;
-  column-gap: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
   width: 100%;
+}
+
+.plas-gallery-col {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .plas-gallery-item {
@@ -55,10 +61,9 @@ body {
   border: none;
   padding: 0;
   text-align: left;
-  display: inline-block;
+  display: block;
   width: 100%;
   margin-bottom: 1.5rem;
-  break-inside: avoid;
   transition: transform 0.3s ease;
 }
 

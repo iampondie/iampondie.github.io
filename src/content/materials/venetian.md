@@ -2,7 +2,7 @@
 title: "Venetian Plastering Services"
 description: "High-end decorative plastering for luxury interiors."
 serviceType: "Decorative"
-galleryImages: ["/materials/FullSizeRender.jpeg", "/materials/P1020446.jpeg", "/materials/IMG_9878.jpeg", "/materials/IMG_9530.jpeg", "/materials/IMG_9614.jpeg", "/materials/IMG_9895.jpeg", "/materials/IMG_9644.jpeg", "/materials/P1020443.jpeg", "/materials/P1020458.jpeg"]
+galleryImages: ["/materials/sample_1.jpeg", "/materials/sample_2.jpeg", "/materials/sample_3.jpeg", "/materials/sample_4.jpg", "/materials/sample_5.jpg", "/materials/sample_6.jpg", "/materials/sample_7.jpg", "/materials/sample_8.jpg", "/materials/sample_9.jpeg", "/materials/sample_10.jpeg", "/materials/sample_11.jpeg", "/materials/sample_12.jpeg", "/materials/sample_13.jpeg"]
 testimonial: "Philip's work is absolutely breathtaking. A true artisan!"
 ---
 
